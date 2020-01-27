@@ -1,0 +1,1049 @@
+
+@font-face {
+                          font-family: "MoskExtra-Bold800";
+                          src: url('../fonts/Mosk Extra-Bold 800.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskMedium500";
+                          src: url('../fonts/Mosk Medium 500.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskLight300";
+                          src: url('../fonts/Mosk Light 300.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskBold700";
+                          src: url('../fonts/Mosk Bold 700.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskSemi-Bold600";
+                          src: url('../fonts/Mosk Semi-Bold 600.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskExtra-Light200";
+                          src: url('../fonts/Mosk Extra-Light 200.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "MoskThin100";
+                          src: url('../fonts/Mosk Thin 100.ttf') format("truetype");
+                        }
+                        
+.referat {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 4753px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(38, 38, 38, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.referat .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5109px;
+  width               : 1488px;
+  position            : absolute;
+  margin              : 0;
+  left                : -48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1018px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .rectangle {
+  background-color    : rgba(255, 222, 0, 1.0);
+  top                 : 3054px;
+  height              : 1018px;
+  width               : 716px;
+  position            : absolute;
+  margin              : 0;
+  left                : 768px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1018px;
+  height              : 1018px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2036px;
+  height              : 1018px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3054px;
+  height              : 1018px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4120px;
+  height              : 988px;
+  width               : 1420px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4096px;
+  height              : 988px;
+  width               : 1420px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .bg .a7copy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3054px;
+  height              : 1018px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2187px;
+  height              : 974px;
+  width               : 1614px;
+  position            : absolute;
+  margin              : 0;
+  left                : -110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg3 .rectangle {
+  background-color    : rgba(255, 216, 0, 1.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 460px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg3 .simple {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 685px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 150.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 184.0px;
+}
+.referat .pg3 .simple .span1 {
+  
+}
+.referat .pg3 .simple .span2 {
+  color               : rgba(255, 255, 255, 1.0);
+}
+.referat .pg3 .simple .span3 {
+  color               : rgba(255, 255, 255, 1.0);
+  letter-spacing      : 10.0px;
+}
+.referat .pg3 .fi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1272px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 400.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 492.0px;
+}
+.referat .pg3 .c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 253px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 600.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 737.0px;
+}
+.referat .pg3 .ceestec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 239px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskMedium500", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 58.0px;
+}
+.referat .pg3 .whatisc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskMedium500", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 58.0px;
+}
+.referat .pg3 .limbajulcesteunl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 426px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg3 .limbajulcesteunl .span1 {
+  
+}
+.referat .pg3 .limbajulcesteunl .span2 {
+  letter-spacing      : 1.3px;
+}
+.referat .pg3 .inmodcurentin198 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 340px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 856px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg3 .in1978dennisritch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 856px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg3 .in1978dennisritch .span1 {
+  
+}
+.referat .pg3 .in1978dennisritch .span2 {
+  color               : rgba(255, 222, 0, 1.0);
+}
+.referat .pg3 .deasemenealimbajul {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 494px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 426px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg3 .limbajulcafostin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 369px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 426px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4433px;
+  height              : 135px;
+  width               : 370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 535px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .group2 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 55px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .group2 .group .downloadpdf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 35.0px;
+}
+.referat .group2 .group .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .group2 .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 80px;
+  height              : 55px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  border-radius       : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.31;
+}
+.referat .group2 .continuatipeacest {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 46.0px;
+}
+.referat .pg4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3052px;
+  height              : 1423px;
+  width               : 1654px;
+  position            : absolute;
+  margin              : 0;
+  left                : -110px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg4 .printf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 150.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 184.0px;
+}
+.referat .pg4 .easy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 883px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1229px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 150.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 184.0px;
+}
+.referat .pg4 .c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 702px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 600.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 737.0px;
+}
+.referat .pg4 .functiaprintfnufa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 326px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 367px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg4 .existmaimultispec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 326px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : justify;
+  line-height         : 30.0px;
+}
+.referat .pg4 .notafinseamnafl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 605px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 15.0px;
+  color               : rgba(38, 38, 38, 1.0);
+  text-align          : justify;
+  line-height         : 17.0px;
+}
+.referat .pg2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1152px;
+  height              : 875px;
+  width               : 1189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg2 .cuprins {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -265px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 210.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 259.0px;
+}
+.referat .pg2 .cuprins .span1 {
+  
+}
+.referat .pg2 .cuprins .span2 {
+  letter-spacing      : 10.0px;
+}
+.referat .pg2 .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 606px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 300.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 369.0px;
+}
+.referat .pg2 .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 656px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 300.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 369.0px;
+}
+.referat .pg2 .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 614px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.66;
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 300.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 369.0px;
+}
+.referat .pg2 .a4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 300px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 599px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.66;
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 300.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 369.0px;
+}
+.referat .pg2 .ceestec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 876px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 55.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 67.0px;
+}
+.referat .pg2 .ceestec .span1 {
+  
+}
+.referat .pg2 .ceestec .span2 {
+  color               : rgba(255, 222, 0, 1.0);
+}
+.referat .pg2 .printf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 259px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 880px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 55.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 67.0px;
+}
+.referat .pg2 .printf .span1 {
+  
+}
+.referat .pg2 .printf .span2 {
+  color               : rgba(244, 244, 244, 1.0);
+}
+.referat .pg2 .scanf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 374px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 887px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 55.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 67.0px;
+}
+.referat .pg2 .scanf .span1 {
+  
+}
+.referat .pg2 .scanf .span2 {
+  color               : rgba(255, 222, 0, 1.0);
+}
+.referat .pg2 .exemple {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 488px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 887px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 55.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 67.0px;
+}
+.referat .pg2 .exemple .span1 {
+  
+}
+.referat .pg2 .exemple .span2 {
+  color               : rgba(255, 222, 0, 1.0);
+}
+.referat .pg2 .exemple .span3 {
+  
+}
+.referat .pg2 .ccccccc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 782px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 876px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 77.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 77.0px;
+}
+.referat .pg2 .ccccccc .span1 {
+  line-height         : 95.0px;
+}
+.referat .pg2 .ccccccc .span2 {
+  font-family         : "MoskBold700", Helvetica, Arial, serif;
+  line-height         : 93.0px;
+}
+.referat .pg2 .ccccccc .span3 {
+  font-family         : "MoskSemi-Bold600", Helvetica, Arial, serif;
+  line-height         : 92.0px;
+}
+.referat .pg2 .ccccccc .span4 {
+  font-family         : "MoskMedium500", Helvetica, Arial, serif;
+  line-height         : 91.0px;
+}
+.referat .pg2 .ccccccc .span5 {
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  line-height         : 90.0px;
+}
+.referat .pg2 .ccccccc .span6 {
+  font-family         : "MoskExtra-Light200", Helvetica, Arial, serif;
+  line-height         : 90.0px;
+}
+.referat .pg2 .ccccccc .span7 {
+  font-family         : "MoskThin100", Helvetica, Arial, serif;
+  line-height         : 90.0px;
+}
+.referat .pg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 344px;
+  width               : 798px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .pg1 .referat1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 799px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskExtra-Bold800", Helvetica, Arial, serif;
+  font-size           : 210.0px;
+  color               : rgba(255, 222, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 259.0px;
+}
+.referat .pg1 .referat1 .span1 {
+  
+}
+.referat .pg1 .referat1 .span2 {
+  letter-spacing      : 10.0px;
+}
+.referat .pg1 .temafamiliadefuncti {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 291px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskThin100", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(244, 244, 244, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.3px;
+  line-height         : 46.0px;
+}
+.referat .pg1 .rectangle {
+  background-color    : rgba(255, 216, 0, 1.0);
+  top                 : 285px;
+  height              : 59px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 680px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .mouse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 911px;
+  height              : 81px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 697px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .mouse .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  box-sizing          : border-box;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .mouse .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 22px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.referat .yagmyrovpermanya {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4706px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "MoskLight300", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
