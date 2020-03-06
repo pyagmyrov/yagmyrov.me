@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=block');
+
+:root {
+  --box-width: 5%;
+  --bg-color: #f2f2f2;
+  --text-color: #f2f2f2;
+  --body-spacing: 5em;
+  --border-radius: 1em;
+  --border-radius-full: 50%;
+  --neu-value-1: 0.222rem;
+  --neu-value-2: 0.444rem;
+  --font: 'Raleway', sans-serif;
+  --transition-time: 200ms;  
+  --transition-time-long: 400ms; 
+  --transition-function: ease-in-out;  
+  --neu-shadow-light: rgba(255, 255, 255, 0.75);
+  --neu-shadow-dark: rgba(211, 211, 211, 0.75);
+}
+
+*, 
+*:before, 
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: .9375vw;
+}
+
+body {
+  margin: var(--body-spacing);
+  background-color: var(--bg-color);
+  font-family: var(--font);
+}
+
+ul {
+  all: unset;
+  list-style-type: none;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+
+.border-radius {
+  border-radius: var(--border-radius); 
+}
+
+.border-radius-full {
+  border-radius: var(--border-radius-full); 
+}
+
+.g-text {
+  text-decoration: none;
+  font-weight: 900;
+  padding: .15em 8%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, #FFDB2D, #AB3CCC);
+}
+
+.movement span { 
+  box-shadow: none;
+  transition: box-shadow var(--transition-time) var(--transition-function) 0s;  
+}
+
+.movement span.pop,
+.neu-box:not(.active) {
+  box-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-light), calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-dark);
+}
+
+.active .movement span.pop,
+.active .neu-box {
+  box-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-light) inset, calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-dark) inset;
+}
+
+.neu-text:not(.active) {
+  text-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-light), calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-dark);
+}
+
+.active .neu-text {
+  text-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-dark), calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-light);
+}
+
+nav {
+  flex: 0 0 auto;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul li {
+  position: relative;
+  z-index: 3;
+}
+
+button {
+  all: unset;
+  width: 5em;
+  height: 5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mood-btn span {
+  width: 100%;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.menu-btn div {
+  width: 3em;
+  height: 3em;
+  position: relative;
+}
+
+.menu-btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 0.333rem;
+  transition: transform var(--transition-time) var(--transition-function) 0s;
+  background-image: linear-gradient(to left, #FFDB2D, #AB3CCC);
+} 
+
+.menu-btn span:first-child {
+  transform: translate(-50%,calc(-50% + .4em)) rotate(0deg);
+}
+
+.menu-btn span:last-child {
+  transform: translate(-50%,calc(-50% - .4em)) rotate(0deg);
+}
+
+.menu-open .menu-btn span:first-child {
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.menu-open .menu-btn span:last-child {
+  transform: translate(-50%,-50%) rotate(135deg);
+}
+
+.menu {
+    text-decoration: none;
+  position: absolute;
+  width: 50%;
+  height: calc(100% - (var(--body-spacing) * 2));
+  top: var(--body-spacing);
+  left: 25%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+  justify-content: center;
+  pointer-events: none;
+  transform: translateY(calc(100% + (var(--body-spacing) * 2)));
+  transition: transform var(--transition-time-long) var(--transition-function) 0s, pointer-events 0s var(--transition-function) var(--transition-time-long);
+}
+
+.menu-open .menu {
+  pointer-events: all;
+  transform: translateY(0%);
+  transition: transform var(--transition-time-long) var(--transition-function), pointer-events 0s var(--transition-function) var(--transition-time-long);
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu li {
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 3.333rem;
+  text-transform: uppercase;
+  transition: box-shadow var(--transition-time) var(--transition-function) 0s;
+}
+
+.menu li:hover,
+.menu li:focus {
+  box-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-light), calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-dark);
+}
+
+.active .menu li:hover,
+.active .menu li:focus {
+  box-shadow: var(--neu-value-1) var(--neu-value-1) var(--neu-value-2) var(--neu-shadow-light) inset, calc(var(--neu-value-1) * -1) calc(var(--neu-value-1) * -1) var(--neu-value-2) var(--neu-shadow-dark) inset;
+}
+
+.mainstage {
+  display: flex;
+  padding: 2.5em;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  min-height: calc(100vh - (var(--body-spacing) * 2));
+}
+
+.info {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13% 0 15%;
+}
+
+h1 {
+  all: unset;
+  z-index: 1;
+  font-weight: 900;
+  font-size: 5.556rem;
+  position: relative;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.movement {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  pointer-events: none;
+}
+
+.movement span {
+  width: var(--box-width);
+  max-width: var(--box-width);
+  flex: 1 1 auto;
+}

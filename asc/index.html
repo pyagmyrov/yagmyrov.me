@@ -1,0 +1,89 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>asc</title>
+
+		
+	</head>
+	<body>
+
+		
+	<section class="mainstage neu-box border-radius bg-color">
+    <nav>
+        <ul>
+            <li>
+                <button class="neu-box border-radius-full bg-color mood-btn">
+                    <span class="g-text">MOD</span>
+                </button>
+            </li>
+            <li>
+                <button class="neu-box border-radius-full bg-color menu-btn keep-state">
+                    <div><span></span><span></span></div>
+                </button>
+            </li>
+        </ul>
+        <div class="menu neu-box border-radius bg-color">
+            <ul>
+                <li class="g-text">Lab trei</li>
+                <li class="g-text">Lab patru</li>
+                <li class="g-text">Lab cinci</li>
+                <li class="g-text">Lab sase</li>
+                <li class="g-text">Lab sapte</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="info">
+        <h1 class="neu-text"><font color="black">ASC</h1></font>
+    </div>
+  <div class="movement"></div>
+</section>
+	</body>
+
+	</html>
+
+	<script>
+		const moodBtn = document.querySelector(".mood-btn");
+const menuBtn = document.querySelector(".menu-btn");
+const box = document.querySelector(".movement .span");
+const body = document.body;
+const boxCount = 160;
+
+moodBtn.addEventListener("click", () => {
+  body.classList.toggle("active");
+});
+
+menuBtn.addEventListener("click", () => {
+  body.classList.toggle("menu-open");
+});
+
+for (i = 0; i < boxCount; i++) {
+  let movementBox = document.querySelector(".movement");
+  let neuBox = document.createElement("span");
+  movementBox.appendChild(neuBox);
+}
+
+for (i = 0; i < boxCount; i++) {
+  setTimeout(function() {
+    $(".movement span").each(function(i) {
+      var row = $(this);
+      setTimeout(function() {
+        row.addClass("pop");
+      }, 100 * i);
+      setTimeout(function() {
+        row.removeClass("pop");
+      }, 140 * i);
+    });
+  }, 22000 * i);
+}
+
+</script>
+	
+
+
+
+
+
+	
